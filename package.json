@@ -1,0 +1,22 @@
+{
+  "name": "proy-google-sheets-v4",
+  "version": "1.0.0",
+  "description": "Registro de gastos y conexión a Google Sheets API v4",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "David Paredes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "googleapis": "^149.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@vercel/node": "^5.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
